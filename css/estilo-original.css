@@ -1,0 +1,630 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(8, 8, 86);
+    min-height: 5rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 4rem;;
+    margin-left: .625rem;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav ul li{
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    margin: 0 10px;
+}
+
+nav ul li a:hover{
+    color: white;
+    background-color: hsl(206, 100%, 50%);
+    border-radius: .3125rem;
+}
+
+a{
+    text-transform: initial; 
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: .9375rem;
+}
+
+/*Main*/
+
+main{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Inicio*/
+
+.section-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000ff;
+    width: 100%;
+    height: 43.75rem;
+    background-image: url("../assets/img/fondo\ 2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.section-principal p{
+
+    color: rgb(11, 11, 11);
+    
+} 
+.section-principal h1{
+    color: rgb(4, 4, 106);  
+    text-align: center; 
+    text-decoration: underline;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 3.125rem;
+    text-transform: uppercase;    
+}
+
+h1{
+    color: rgb(8, 8, 86);  
+    text-align: center; 
+    text-decoration: underline;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 1.875 rem;
+    text-transform: uppercase;
+
+    /* font */
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style:oblique;
+
+}
+
+h2{
+    color: rgb(27, 141, 227);
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 1.875rem;
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    margin: 20px;
+    font-size: 1.25rem;
+
+}
+
+h3{ 
+    border-top: 3px solid rgb(8, 8, 86);
+    text-align: center;
+    text-transform: uppercase ;
+    color:rgb(8, 8, 86);
+    text-decoration: underline;
+    font-size: 1.4375rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+/*Carousel*/
+
+.bs-img-1{
+    background-color: #fafafa;
+    background-image: url(https://media.audleytravel.com/-/media/images/home/south-america/region-guides/patagonia-chile-v-argentina/perito_moreno_glacier_shutterstock_1493355977_3000x1000.jpg?q=79&w=1920&h=640);
+}
+.bs-img-2{
+    background-color: #fafafa;
+    background-image: url(https://i.pinimg.com/originals/6c/26/5a/6c265acb86e3dc6259979f3f799eea9a.jpg);
+
+}
+.bs-img-3{
+    background-color: #fafafa;
+    background-image: url(https://static.nationalgeographic.es/files/expeditions.jpg?url=https://www.nationalgeographicexpeditions.eu/wp-content/uploads/2018/11/patagonia-shutterstock-734181028-1600x704.jpg);
+}
+
+.bs-img-4{
+    background-color: #fafafa;
+    background-image: url(https://www.pttours.cz/buxus/images/pristavy/hlavni2uschuaia.jpg);
+}
+
+.carousel-image{
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Destino*/
+
+.Parrafo-conocenuestrodestino{
+    color: black;
+    text-align: center;
+    font-size: 1.5625rem;
+    font-style: initial;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.Parrafo-paqueteturistico{
+    color: black;
+    text-align: justify;
+    font-size: 1.25rem;
+    font-style: initial;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.Descripcion{
+    text-align: justify;
+    font-style: oblique;
+    margin-bottom: 35px;
+    font-size: 1.875rem;
+}
+
+.contenedor-destinos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    
+}  
+
+.tarjeta img{
+    width: 100%
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 98%;
+    align-content: center;
+    height: auto;
+    }
+
+.Imagen-destino{
+    width: 100%;
+    border-radius: 10%;
+    height:auto; 
+    }
+
+    .boton{
+        background-color: rgb(10, 10, 99);
+        color: white;
+        font-size: 1.125rem;
+        border-radius: 10px;
+        align-items: center;
+        cursor: pointer;
+        width: 100px;
+        height: 1.875rem;
+    }
+
+    .boton:hover{
+        background-color: #0808a8;
+    }
+    
+    .tarjeta .contenido{
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+/*Guia turistico*/   
+
+.contenedorGuias{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+}  
+
+
+    .Imagen-guia{
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+    }
+
+    .Parrafo-guias{
+
+        /*font*/
+        font-family: "Langosta", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: black;
+        text-align: center;
+        font-size: 1.25rem;
+        font-style: initial;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-transform: uppercase; 
+    }
+
+    .tarjeta-guias{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        background-color: white;
+        border: 1px solid #ccc;
+        padding: 20px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        margin: 10px;
+        width: 98%;
+        align-content: center;
+        height: auto;
+    }
+
+    /*Contacto*/
+
+    .banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0000ff;
+        background-image: url("../assets/img/fondo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: calc(110vh - 110px);
+    }
+
+    form{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .form-contacto{
+        width: 40vw;
+        height: auto;
+        background-color: #fafafa;
+        z-index: 2;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .contacto{
+        text-align: center;
+        background-color: rgb(74, 200, 231);
+        color: #fafafa;
+    }
+
+    .image-contacto{
+        background-color: rgb(226, 226, 226);
+        width: 100%;
+        height: auto;
+        align-content: center;
+    }
+    
+    label{
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: black;
+        
+    }
+
+    .flex{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    input, 
+    textarea{
+        display: block;
+        width: 85%;
+        padding: 10px;
+        border: 2px solid rgb(147, 147, 153);
+        border-radius: 5px;
+        font-size: 1rem;
+        margin: 10px;
+
+    
+    }
+    
+    .btn-formulario{
+        background-color:rgb(74, 200, 231);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: 1.125rem;
+        cursor: pointer;
+        margin: 10px;
+    }
+    
+    .btn-formulario:hover{
+        background-color: rgba(1, 1, 67, 0.938);
+    }
+
+    /*Sucursales*/
+
+    .conoce-sucursales{
+        color: black;
+        text-align: justify;
+        font-size: 1.25rem;
+        font-style: initial;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        text-transform: uppercase;  
+    }
+
+    iframe{
+
+        border-radius: 15px;
+        margin:20px;
+        width: 80%;
+        height: auto;
+}
+
+    .contenedor-sucursales{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 97%;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: aqua;
+        background-image: url("../assets/img/imagen\ ruta.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contenedor-sucursales p{
+        font-size: 1.125rem;
+        display: flex;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(237, 234, 234);
+        border: 2px solid black;
+
+    }
+
+    /*Footer*/
+
+    footer{
+        border-bottom: 1px solid black;
+        text-align: center;
+        background-color: rgb(8, 8, 86);
+    }
+
+    .Contacto-footer{
+        color: white;  
+        text-decoration: underline; 
+        text-align: center;
+        font-style: normal;
+        padding-bottom: 5px;
+        padding-top: 20px;
+
+    }
+
+    .parrafo-footer{
+        color: white;
+        text-transform: initial;
+        text-align: justify;
+        font-size: 1rem;
+        font-style: oblique;
+        margin:  5px;
+    }
+
+    .parrafo-footer-derechos{
+        color: white;
+        text-transform: initial;
+        text-align: right;
+        font-size: .875rem;
+        font-style: oblique;
+        padding-right: 20px;
+    }
+
+    /*Responsive*/
+
+    /*vista tablet (de 768px hasta 1023px)*/
+
+    @media (max-width:1023px) {
+
+        /*header*/
+
+
+
+    .logo{
+        width: auto;
+        height: 4rem;
+    }
+    
+        /*Seccion Principal*/
+
+    .section-principal h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    }
+
+    .Section-subtitulo-img h2{
+    font-size: 1.25rem;  
+    }
+
+    .Section-subtitulo-img p{
+        font-size: 1rem;
+    }
+
+h1,h2{
+    font-size: 1.25rem;
+}
+
+p{
+    font-size: 1.125rem;
+}
+
+/*Destinos*/
+
+.Parrafo-paqueteturistico{
+    font-size: 1rem;
+}
+
+.contenedor-destinos{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+/*Guias*/
+
+.contenedorGuias{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.Imagen-guia{
+
+    width: 85%;
+}
+
+/*Sucursales*/
+
+.contenedor-sucursales{
+
+width: auto;
+}
+
+/*Contacto*/
+.form-contacto{
+    width: 80vw;
+
+    }
+
+/*footer*/
+
+.parrafo-footer-derechos{
+
+    text-align: center;
+    }
+
+    .parrafo-footer{
+        text-align: center;
+    }
+}
+
+    /*Responsive*/
+
+    /*vista mobile (de 0px hasta 568px)*/
+
+    @media (max-width:568px) {
+
+    /*header*/
+
+    header{
+        align-items:start;
+        min-height: 6rem;
+        }
+
+    .logo{
+        width: auto;
+        height: 3rem;
+        align-items: center;
+        }
+
+    nav ul li{
+        list-style: none;
+        text-align: center;
+        margin: 0 2px;
+        }
+
+    a{
+        font-size: .625rem;
+        }
+
+
+    /* Inicio*/
+
+    .section-principal h1{
+        font-size: 1rem;
+        font-weight: bold;
+        }
+    
+    /*Sucursales*/
+
+    .contenedor-sucursales p{
+
+        font-size: 0.75rem;
+        }
+        
+    .conoce-sucursales{
+        font-size: .875rem;}
+
+    /*Destinos*/
+
+    .Descripcion{
+
+    font-size: 1rem;
+    }
+
+    .Parrafo-paqueteturistico{
+        font-size: .875rem;}
+
+    /*Especialistas*/
+
+    .Parrafo-guias{
+
+    font-size: .875rem;
+    }
+
+
+    /*Footer*/
+
+    .parrafo-footer{
+
+    font-size: 0.75rem;
+    margin:  2px;
+    }
+
+    .parrafo-footer-derechos{
+
+    font-size: .75rem;
+    }
+
+
+    }

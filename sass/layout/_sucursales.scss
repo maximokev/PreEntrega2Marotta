@@ -1,0 +1,40 @@
+.conoce-sucursales {
+    color: $color-negro;
+    text-align: justify;
+    font-size: 1.25rem;
+    font-style: initial;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+iframe {
+    border-radius: 15px;
+    margin: 20px;
+    width: 80%;
+    height: auto;
+}
+
+.contenedor-sucursales {
+    @include grid (repeat(2, 1fr),repeat(2, 1fr),center,center);
+    border: 2px solid $color-negro;
+    border-radius: 15px;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: $color-celeste;
+    background-image: url("../assets/img/imagen\ ruta.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+        @include flex (center,center);
+        font-size: 1.125rem;
+        margin: 20px;
+        padding: 20px;
+        align-items: center;
+        background-color: $color-blanco;
+        border: 2px solid $color-negro;
+    }
+}

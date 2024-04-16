@@ -1,0 +1,70 @@
+@media (max-width: 1023px) {
+    /*header*/
+
+    .logo {
+        width: auto;
+        height: 4rem;
+    }
+
+    /*Seccion Principal*/
+
+    .section-principal h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .Section-subtitulo-img {
+        h2 {
+            font-size: 1.25rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    h1,
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 1.125rem;
+    }
+
+    /*Destinos*/
+
+    .Parrafo-paqueteturistico {
+        font-size: 1rem;
+    }
+
+    .contenedor-destinos,
+    .contenedorGuias {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*Guias*/
+
+    .Imagen-guia {
+        width: 85%;
+    }
+
+    /*Sucursales*/
+
+    .contenedor-sucursales {
+        width: auto;
+    }
+
+    /*Contacto*/
+
+    .form-contacto {
+        width: 80vw;
+    }
+
+    /*footer*/
+
+    .parrafo-footer-derechos,
+    .parrafo-footer {
+        text-align: center;
+    }
+}

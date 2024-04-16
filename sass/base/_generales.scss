@@ -1,0 +1,92 @@
+header {
+    @include flex (center, space-between);
+    text-align: center;
+    padding: 10px 20px;
+    background-color: $color-azul;
+    min-height: 5rem;
+}
+
+.logo {
+    @include flex (center, center);
+    width: auto;
+    height: 4rem;
+    margin-left: .625rem;
+    animation: rotar 5s linear infinite;
+}
+
+@keyframes rotar {
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(-360deg);
+    }
+}
+
+
+main {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: $color-azul;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 1.875 rem;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+h2 {
+    color: $color-celeste;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 1.875rem;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.25rem;
+}
+
+footer {
+    border-bottom: 1px solid $color-negro;
+    text-align: center;
+    background-color: $color-azul;
+}
+
+.Contacto-footer {
+    color: $color-blanco;
+    text-decoration: underline;
+    text-align: center;
+    font-style: normal;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+
+.parrafo-footer {
+    color: $color-blanco;
+    text-transform: initial;
+    text-align: justify;
+    font-size: 1rem;
+    font-style: oblique;
+    margin: 5px;
+}
+
+.parrafo-footer-derechos {
+    color: $color-blanco;
+    text-transform: initial;
+    text-align: right;
+    font-size: .875rem;
+    font-style: oblique;
+    padding-right: 20px;
+}

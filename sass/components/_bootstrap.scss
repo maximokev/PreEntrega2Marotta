@@ -1,0 +1,27 @@
+.bs-img-1 {
+    background-color: $color-blanco;
+    background-image: url(https://media.audleytravel.com/-/media/images/home/south-america/region-guides/patagonia-chile-v-argentina/perito_moreno_glacier_shutterstock_1493355977_3000x1000.jpg?q=79&w=1920&h=640);
+}
+
+.bs-img-2 {
+    background-color: $color-blanco;
+    background-image: url(https://i.pinimg.com/originals/6c/26/5a/6c265acb86e3dc6259979f3f799eea9a.jpg);
+}
+
+.bs-img-3 {
+    background-color: $color-blanco;
+    background-image: url(https://static.nationalgeographic.es/files/expeditions.jpg?url=https://www.nationalgeographicexpeditions.eu/wp-content/uploads/2018/11/patagonia-shutterstock-734181028-1600x704.jpg);
+}
+
+.bs-img-4 {
+    background-color: $color-blanco;
+    background-image: url(https://www.pttours.cz/buxus/images/pristavy/hlavni2uschuaia.jpg);
+}
+
+.carousel-image {
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

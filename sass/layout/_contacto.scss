@@ -1,0 +1,86 @@
+.banner {
+    @include flex (center, center);
+    background-color: #0000ff;
+    background-image: url("../assets/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(110vh - 110px);
+}
+
+form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-contacto {
+    width: 40vw;
+    height: auto;
+    background-color: $color-blanco;
+    z-index: 2;
+    box-shadow: 0 0 10px $color-negro;
+}
+
+.contacto {
+    text-align: center;
+    background-color: rgb(74, 200, 231);
+    color: $color-blanco;
+}
+
+.image-contacto {
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    height: auto;
+    align-content: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: $color-negro;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+input,
+textarea {
+    display: block;
+    width: 85%;
+    padding: 10px;
+    border: 2px solid rgb(147, 147, 153);
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.btn-formulario {
+    background-color: rgb(74, 200, 231);
+    color: $color-blanco;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.125rem;
+    cursor: pointer;
+    margin: 10px;
+
+    &:hover {
+        background-color: rgba(1, 1, 67, 0.938);
+    }
+}
+
+h3 {
+    border-top: 3px solid $color-azul;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-azul;
+    text-decoration: underline;
+    font-size: 1.4375rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
