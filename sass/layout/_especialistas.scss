@@ -1,5 +1,6 @@
 .contenedorGuias {
-    @include grid (repeat(3, 1fr),row, center, center);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-left: 1.25rem;
     margin-right: 1.25rem;
