@@ -4,13 +4,12 @@
   box-sizing: border-box; }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
   padding: 10px 20px;
-  background-color: #080856;
+  background-color: #3b5d9c;
   min-height: 5rem; }
+
+.navbar-toggler {
+  color: white; }
 
 .logo {
   display: flex;
@@ -55,7 +54,7 @@ h2 {
 p {
   text-align: center;
   margin: 20px;
-  font-size: 1.25rem; }
+  font-size: 1rem; }
 
 footer {
   border-bottom: 1px solid black;
@@ -130,7 +129,7 @@ footer {
   text-align: justify;
   font-style: oblique;
   margin-bottom: 35px;
-  font-size: 1.875rem; }
+  font-size: 1.5625rem; }
 
 .contenedor-destinos {
   display: grid;
@@ -265,7 +264,7 @@ iframe {
   background-image: url("../assets/img/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(110vh - 110px); }
+  height: calc(130vh - 130px); }
 
 form {
   padding: 20px;
@@ -286,7 +285,6 @@ form {
   color: white; }
 
 .image-contacto {
-  background-color: #e2e2e2;
   width: 100%;
   height: auto;
   align-content: center; }
@@ -318,7 +316,7 @@ textarea {
   border: none;
   padding: 10px 20px;
   border-radius: 10px;
-  font-size: 1.125rem;
+  font-size: 1rem;
   cursor: pointer;
   margin: 10px; }
   .btn-formulario:hover {
@@ -409,19 +407,20 @@ h3 {
     font-size: 0.75rem;
     margin: 2px; }
   .parrafo-footer-derechos {
-    font-size: .75rem; } }
+    font-size: .75rem; }
+  /*Contacto*/
+  .form-contacto {
+    width: 90vw; } }
 
 nav ul {
   margin: 0;
   padding: 0; }
   nav ul li {
     list-style: none;
-    text-align: center;
-    display: inline-flex;
     margin: 0 10px; }
     nav ul li a:hover {
       color: white;
-      background-color: #0091ff;
+      background-color: #080856;
       border-radius: .3125rem; }
 
 a {

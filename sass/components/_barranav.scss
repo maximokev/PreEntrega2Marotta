@@ -4,13 +4,11 @@ nav ul {
 
     li {
         list-style: none;
-        text-align: center;
-        display: inline-flex;
         margin: 0 10px;
 
         a:hover {
             color: $color-blanco;
-            background-color: hsl(206, 100%, 50%);
+            background-color: $color-azul;
             border-radius: .3125rem;
         }
     }

@@ -4,7 +4,7 @@
     background-image: url("../assets/img/fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc(110vh - 110px);
+    height: calc(130vh - 130px);
 }
 
 form {
@@ -29,7 +29,6 @@ form {
 }
 
 .image-contacto {
-    background-color: rgb(226, 226, 226);
     width: 100%;
     height: auto;
     align-content: center;
@@ -65,7 +64,7 @@ textarea {
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
-    font-size: 1.125rem;
+    font-size: 1rem;
     cursor: pointer;
     margin: 10px;
 

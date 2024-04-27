@@ -1,9 +1,11 @@
 header {
-    @include flex (center, space-between);
-    text-align: center;
     padding: 10px 20px;
-    background-color: $color-azul;
+    background-color: rgb(59, 93, 156);
     min-height: 5rem;
+}
+
+.navbar-toggler{
+    color: $color-blanco
 }
 
 .logo {
@@ -55,7 +57,7 @@ h2 {
 p {
     text-align: center;
     margin: 20px;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 footer {
